@@ -1,6 +1,6 @@
 ## Frontend bug fixed
 
-Este error con el frontend sucedia puesto que con una aplicación de react.js las rutas se manejan en el frontend por el react-router. Por lo que para solucionar el error es necesario cargar el archivo o ruta principal para que nginx reconozca el archivo. Para se tiene que crear un nginx.conf con lo siguiente:
+Este error sucedia puesto que con una aplicación de react.js las rutas se manejan en el frontend por el react-router. Por lo que para solucionar el error es necesario cargar el archivo o ruta principal para que nginx reconozca el archivo. Para se tiene que crear un nginx.conf con lo siguiente:
 
     server {
         listen       80;
