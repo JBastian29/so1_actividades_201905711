@@ -16,7 +16,7 @@ Este error con el frontend sucedia puesto que con una aplicación de react.js la
         }
     }
 
-Y tambien debemos agregar lo siguiente a nuestro nginx.Dockerfile:
+Y tambien debemos modificar lo siguiente a nuestro nginx.Dockerfile:
 
 
     FROM nginx:1.22.1-alpine as runner
